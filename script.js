@@ -7,9 +7,7 @@ recognition.start();
 
 let p = document.createElement("p");
 const words = document.querySelector('.words');
-
-
-// words.appendChild(p);
+words.appendChild(p);
 
 
 recognition.addEventListener('result', e => {
@@ -17,8 +15,10 @@ recognition.addEventListener('result', e => {
   const transcript = Array.from(e.results)
     .map(result => result[0])
     .map(result => result.transcript)
-    .join(' ')
-  p.textContent = transcript + '.  ';
+    .join('')
+
+  capitalizedTranscript = transcript.charAt(0).toUpperCase() + transcript.substr(1)
+  p.textContent = capitalizedTranscript + '.  ';
   if(e.results[0].isFinal){
     p = document.createElement('p');
     words.appendChild(p)
