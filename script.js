@@ -20,10 +20,16 @@ recognition.addEventListener('result', e => {
   capitalizedTranscript = transcript.charAt(0).toUpperCase() + transcript.substr(1)
   p.textContent = capitalizedTranscript + '.  ';
   if(e.results[0].isFinal){
-    p = document.createElement('p');
-    words.appendChild(p)
+    // p = document.createElement('p');
+    // words.appendChild(p)
+    setTimeout(completedSentence, 2000)
   }
 })
+
+function completedSentence(){
+  p = document.createElement('p');
+  words.appendChild(p)
+}
 
 recognition.addEventListener('end', recognition.start);
 //
