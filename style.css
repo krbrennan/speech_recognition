@@ -3,9 +3,29 @@
   padding: 0;
 }
 
+body{
+  background: #6c5ce7;
+  margin-top: 2em;
+}
+
 .words {
-  border: .5px solid black;
+  margin-top: 5em;
+  background: #fdcb6e;
   width: 50%;
   padding-top: 2em;
-  margin: 0 auto;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.words, p {
+  /* text-align: center; */
+  font-size: 1em;
+  padding: 1em;
+  border-bottom: 0.5px solid grey;
+  /* line-height: 2em; */
+}
+
+.words, p:after{
+  border-bottom: 5px solid black;
 }
