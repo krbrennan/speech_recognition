@@ -1,0 +1,20 @@
+{
+  "name": "speech_recognition",
+  "homepage": "https://krbrennan.github.io/speech_recognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krbrennan/speech_recognition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krbrennan/speech_recognition/issues"
+  },
+  "homepage": "https://github.com/krbrennan/speech_recognition#readme"
+}
