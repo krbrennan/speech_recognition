@@ -18,29 +18,46 @@ body{
 }
 
 .greeting {
-  min-height: 100px;
+  min-height: 200px;
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  /* width: %; */
   justify-content: center;
-  background: yellow;
+  /* background: yellow; */
 }
 
 .greeting-btn {
-  position: absolute;
+  /* position: absolute; */
+  min-height: 1em;
   padding: 1em;
   margin: 1em;
   justify-content: center;
   border-radius: 7px;
-  transition: all .2s ease-in-out;
+  /* transition: all .2s ease-in-out; */
 }
 
 .greeting-btn:hover {
   /* position: absolute; */
   background: rgb(221, 78, 78);
   color: white;
-  font-size: 100%;
-  transform: scale(1.1);
+  /* font-size: 100%; */
+  /* transform: scale(1.1); */
+}
+
+#record-end {
+  min-height: 1em;
+  padding: 1em;
+  margin: 1em;
+  justify-content: center;
+  border-radius: 7px;
+  /* transition: all .2s ease-in-out; */
+}
+
+#record-end:hover{
+  background: rgb(86, 230, 110);
+  color: white;
+  /* font-size: 100%; */
+  /* transform: scale(1.1); */
 }
 
 .words {
