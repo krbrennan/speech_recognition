@@ -4,7 +4,6 @@
 }
 
 body{
-  /* background: #aeaacf; */
   background: rgba(160, 158, 158, 0.425);
   margin-top: 2em;
 }
@@ -17,31 +16,37 @@ body{
   width: auto;
 }
 
+.nb-div {
+  margin: 0 auto;
+  background: rgba(212, 3, 3, 0.425);
+  padding: 2em;
+  color: rgba(248, 242, 242, 0.952);
+  border-radius: 7px;
+}
+
+/* Buttons for begin-dictation and end-dictation */
+
 .greeting {
   min-height: 200px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  /* background: yellow; */
 }
 
-.greeting-btn {
-  /* position: absolute; */
+.record-btn {
   min-height: 1em;
   padding: 1em;
   margin: 1em;
   justify-content: center;
   border-radius: 7px;
-  /* transition: all .2s ease-in-out; */
+  transition: all .2s ease-in-out;
 }
 
-.greeting-btn:hover {
-  /* position: absolute; */
+.record-btn:hover {
   background: rgb(221, 78, 78);
   color: white;
-  /* font-size: 100%; */
-  /* transform: scale(1.1); */
+  transform: scale(1.1);
 }
 
 #record-end {
@@ -50,35 +55,32 @@ body{
   margin: 1em;
   justify-content: center;
   border-radius: 7px;
-  /* transition: all .2s ease-in-out; */
+  transition: all .2s ease-in-out;
 }
 
 #record-end:hover{
   background: rgb(86, 230, 110);
   color: white;
-  /* font-size: 100%; */
-  /* transform: scale(1.1); */
+  transform: scale(1.1);
 }
 
+
+/* dictation content */
 .words {
-  /* position: absolute; */
   justify-content: center;
   padding-top: 5em;
   margin-top: 5em;
   background: #7ea3f362;
   width: 50%;
-  /* padding-top: 2em; */
   margin: auto;
   border-radius: 4px;
   box-shadow: 2px 2px 2px black;
 }
 
 .words, p {
-  /* text-align: center; */
   font-size: 1em;
   padding: 1em;
   border-bottom: 0.5px solid grey;
-  /* line-height: 2em; */
 }
 
 .words, p:after{
