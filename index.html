@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Speech Recognition</title>
   </head>
   <body>
+    <div class="page-body">
+      <div class="nb-div">
+        <span class="nb"
+          >NB: This application currently only works on the Chrome browser and
+          with a microphone.</span
+        >
+      </div>
+      <div class="greeting">
+        <button id="record-btn" class="record-btn">Begin Dictation</button>
+        <button id="record-end">End Dictation</button>
+      </div>
 
-    <div class='page-body'>
-      <div class='nb-div'>
-        <span class='nb'>NB: This application currently only works on the Chrome browser.</span>
-      </div>
-      <div class='greeting'>
-          <button id='record-btn' class='record-btn'>Begin Dictation</button>
-          <button id='record-end'>End Dictation</button>
-      </div>
-  
-      <div class="words">
-      </div>
+      <div class="words"></div>
     </div>
-    
 
     <!-- <script type="text/javascript" src="./script.js"></script> -->
-    <script type="text/javascript" src='./script.js'>
-    </script>
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
