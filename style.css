@@ -47,7 +47,7 @@ body {
 
 .record-btn:hover {
   /* background: rgb(221, 78, 78); */
-  color: white;
+  /* color: white; */
   transform: scale(1.1);
 }
 
@@ -62,7 +62,7 @@ body {
 
 #record-end:hover {
   /* background: rgb(86, 230, 110); */
-  color: white;
+  /* color: white; */
   transform: scale(1.1);
 }
 
@@ -87,5 +87,5 @@ p {
 
 .words,
 p:after {
-  border-bottom: 5px solid black;
+  border-bottom: 2px solid black;
 }
